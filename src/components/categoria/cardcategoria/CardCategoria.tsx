@@ -27,4 +27,5 @@ function CardCategoria({ categoria }: CardCategoriaProps) {
     )
 }
 
+
 export default CardCategoria
