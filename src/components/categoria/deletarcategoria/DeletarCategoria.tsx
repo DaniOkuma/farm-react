@@ -60,4 +60,5 @@ function DeletarCategoria() {
     )
 }
 
+
 export default DeletarCategoria
