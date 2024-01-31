@@ -12,6 +12,8 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
+        <div>
+        
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
@@ -20,6 +22,9 @@ function App() {
           <Route path='/editarcategoria/:id' element={<FormCategoria />} />
           <Route path='/deletarcategoria/:id' element={<DeletarCategoria />} />
         </Routes>
+  
+        
+        </div>
         <Footer />
       </BrowserRouter>
     </>

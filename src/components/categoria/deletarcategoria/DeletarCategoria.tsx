@@ -48,7 +48,7 @@ function DeletarCategoria() {
                 <header className='py-2 px-6 bg-pink-600 text-white font-bold text-2xl'>Categoria</header>
                 <p className='p-8 text-3xl bg-pink-300 text-slate-100 h-full'>{categoria.nome}</p>
                 <div className="flex">
-                    <button className='text-slate-950 bg-white w-full py-2'
+                    <button className='text-pink-500 bg-white w-full py-2'
                         onClick={retornar}>Não</button>
                     <button className='w-full text-slate-100 bg-pink-600 flex items-center justify-center'
                         onClick={deletarCategoria} >
